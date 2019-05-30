@@ -1,0 +1,28 @@
+{
+  "intents": [
+    {
+      "intent": "CaptureHexDigitIntent",
+      "slots": [
+        {
+          "name": "digit",
+          "type": "HEXDIGIT"
+        }
+      ]
+    },
+    {
+      "intent": "ConfirmInput",
+      "slots": [
+        {
+          "name": "confirm",
+          "type": "CONFIRMATION"
+        }
+      ]
+    },
+    {
+      "intent": "StartCaptureIntent"
+    },
+    {
+      "intent": "CompleteCaptureIntent"
+    }
+  ]
+}
